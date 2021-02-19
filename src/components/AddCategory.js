@@ -15,7 +15,7 @@ export const AddCategory = ({setCategory}) => {
             return;
         }
         setCategory(cats => [inputValue, ...cats]);
-
+        setinputValue('');
     }
     
 
